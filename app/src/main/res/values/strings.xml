@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Waiter App</string>
+
+    <!-- Общее -->
+    <string name="back">Назад</string>
+    <string name="refresh">Обновить</string>
+
+    <!-- Экран входа -->
+    <string name="login_title">ВХОД ДЛЯ\nОФИЦИАНТА</string>
+    <string name="login_staff_id_label">ID официанта</string>
+    <string name="login_password_label">Пароль</string>
+    <string name="login_password_show_content_description">Показать пароль</string>
+    <string name="login_password_hide_content_description">Скрыть пароль</string>
+    <string name="login_button">ВОЙТИ</string>
+    <string name="login_qr_hint">Авторизация по QR-коду</string>
+
+    <!-- Экран "Карта зала" -->
+    <string name="hall_title">КАРТА ЗАЛА</string>
+    <string name="hall_new_order_button">НОВЫЙ ЗАКАЗ</string>
+    <string name="hall_new_order_button_multi">НОВЫЙ ЗАКАЗ (%1$d стола)</string>
+    <string name="hall_offline_hint">Нет связи с сервером — статусы столов показаны условно, доступны все</string>
+    <string name="hall_loading">Загрузка данных о столах…</string>
+    <string name="hall_retry_button">Повторить</string>
+
+    <!-- Экран "Меню" -->
+    <string name="menu_title">МЕНЮ (%1$s)</string>
+    <string name="menu_title_all">МЕНЮ</string>
+    <string name="menu_add_to_cart_content_description">Добавить</string>
+    <string name="menu_cart_button">В КОРЗИНУ (%1$d)</string>
+
+    <!-- Экран "Новый заказ" -->
+    <string name="order_no_table_label_capitalized">Без стола</string>
+    <string name="order_title">НОВЫЙ ЗАКАЗ (Стол %1$s)</string>
+    <string name="order_title_no_table">НОВЫЙ ЗАКАЗ (без стола)</string>
+    <string name="order_edit_title">ДОБАВИТЬ БЛЮДА (Стол %1$s)</string>
+    <string name="order_edit_title_no_table">ДОБАВИТЬ БЛЮДА (без стола)</string>
+    <string name="order_save_button">СОХРАНИТЬ</string>
+    <string name="order_add_more_button">ДОБАВИТЬ ЕЩЁ</string>
+    <string name="order_kitchen_note_label">ПРИМЕЧАНИЕ КУХНЕ</string>
+    <string name="order_kitchen_note_placeholder">Например: без лука, подать напитки сразу</string>
+    <string name="order_total_label">ТОТАЛ:</string>
+    <string name="order_submit_button">ОТПРАВИТЬ</string>
+    <string name="order_cart_line">%1$s (%2$d шт)</string>
+    <string name="order_increment_content_description">Увеличить</string>
+    <string name="order_decrement_content_description">Уменьшить</string>
+
+    <!-- Нижняя навигация -->
+    <string name="bottom_nav_home">ГЛАВНАЯ</string>
+    <string name="bottom_nav_orders">ЗАКАЗЫ</string>
+    <string name="bottom_nav_profile">ПРОФИЛЬ</string>
+
+    <!-- Экран "Заказы" (локальный блокнот чеков) -->
+    <string name="orders_title">ЗАКАЗЫ</string>
+    <string name="orders_empty">У вас пока нет заказов. Они появятся здесь сразу после отправки из \"Нового заказа\".</string>
+    <string name="orders_retry_send_button">Отправить повторно</string>
+    <string name="orders_table_label">Стол %1$s</string>
+    <string name="orders_receipt_line">%1$d× %2$s</string>
+    <string name="orders_receipt_line_price">%1$,.2f</string>
+    <string name="orders_receipt_comment">Примечание: %1$s</string>
+    <string name="orders_receipt_total">Итого: %1$,.2f</string>
+    <string name="orders_status_sent">ОТПРАВЛЕН</string>
+    <string name="orders_status_not_sent">НЕ ОТПРАВЛЕН</string>
+    <string name="orders_status_sending">ОТПРАВКА…</string>
+    <string name="orders_status_paid">ОПЛАЧЕН</string>
+    <string name="orders_status_not_paid">НЕ ОПЛАЧЕН</string>
+    <string name="orders_status_kitchen_ready">ГОТОВ</string>
+    <string name="orders_status_cancelled">ОТМЕНЁН</string>
+    <string name="orders_delete_content_description">Удалить</string>
+    <string name="orders_delete_confirm_title">Удалить заказ?</string>
+    <string name="orders_delete_confirm_message">Чек будет удалён только с этого телефона. Если заказ уже был принят сервером, на сервере он останется.</string>
+    <string name="orders_cancel_content_description">Отменить заказ</string>
+    <string name="orders_cancel_confirm_title">Отменить заказ?</string>
+    <string name="orders_cancel_confirm_message">Вы действительно хотите отменить заказ №%1$d? Заказ останется в истории со статусом «отменён».</string>
+    <string name="orders_cancel_confirm_button">Подтвердить</string>
+    <string name="orders_cancel_success">Заказ №%1$d отменён</string>
+    <string name="orders_cancel_error_title">Не удалось отменить заказ</string>
+    <string name="orders_cancel_error_generic">Не удалось отменить заказ. Попробуйте ещё раз.</string>
+    <string name="ok_button">ОК</string>
+    <string name="orders_add_order_button">Изменить заказ</string>
+    <string name="orders_tab_new">НОВЫЕ</string>
+    <string name="orders_tab_old">ВСЕ</string>
+    <string name="orders_old_empty">Заказов пока нет.</string>
+    <string name="orders_old_status_label">Статус: %1$s</string>
+    <string name="orders_old_order_number">ЗАКАЗ №%1$s</string>
+    <string name="orders_old_cached_notice">Показан сохранённый список (обновится автоматически через 24 часа или по кнопке обновления).</string>
+    <string name="orders_old_error_with_cache_hint">Не удалось обновить список. Показаны последние сохранённые данные.</string>
+    <string name="order_detail_title">ЧЕК</string>
+    <string name="order_detail_not_found">Заказ не найден.</string>
+    <string name="order_detail_edit_button">Добавить ещё заказ в список</string>
+
+    <!-- Экран "Профиль" -->
+    <string name="profile_title">ПРОФИЛЬ</string>
+    <string name="profile_staff_id">Официант №%1$d</string>
+    <string name="profile_no_session">Сессия не найдена</string>
+    <string name="profile_hint">Ник указывается при входе и хранится только на этом телефоне. Остальные данные профиля появятся, когда бэкенд добавит соответствующий эндпоинт</string>
+    <string name="profile_logout_button">ВЫЙТИ</string>
+    <string name="profile_logout_confirm_title">Выйти из аккаунта?</string>
+    <string name="profile_logout_confirm_message">Вам нужно будет войти заново, чтобы продолжить работу.</string>
+    <string name="cancel">Отмена</string>
+</resources>
